@@ -1,2 +1,3 @@
-Personal dynamic portfolio website
-If you want to see here the website -> https://dwiputrabayu.rf.gd
+Personal dynamic portfolio website.
+
+If you want to see, here my website -> https://dwiputrabayu.rf.gd
