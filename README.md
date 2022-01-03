@@ -1,1 +1,1 @@
-Personal portfolio
+Personal dynamic portfolio website
