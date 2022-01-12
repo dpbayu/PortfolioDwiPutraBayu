@@ -36,7 +36,8 @@ section {
 
 section .color {
     position: fixed;
-    filter: blur(150px);
+    -webkit-filter: blur(150px);
+            filter: blur(150px);
 }
 
 section .color:nth-child(1) {
@@ -71,15 +72,30 @@ section .color:nth-child(3) {
 
 .box .square {
     position: absolute;
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(225, 225, 225, 0.5);
     border-right: 1px solid rgba(225, 225, 225, 0.2);
     border-bottom: 1px solid rgba(225, 225, 225, 0.2);
     background: rgba(225, 225, 225, 0.1);
     border-radius: 10px;
-    animation: animate 10s linear infinite;
-    animation-delay: calc(-1s * var(--i));
+    -webkit-animation: animate 10s linear infinite;
+            animation: animate 10s linear infinite;
+    -webkit-animation-delay: calc(-1s * var(--i));
+            animation-delay: calc(-1s * var(--i));
+}
+
+@-webkit-keyframes animate {
+
+    0%,
+    100% {
+        transform: translateY(-40px);
+    }
+
+    50% {
+        transform: translateY(40px);
+    }
 }
 
 @keyframes animate {
@@ -140,7 +156,8 @@ section .color:nth-child(3) {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(225, 225, 225, 0.5);
     border-right: 1px solid rgba(225, 225, 225, 0.2);
@@ -192,6 +209,22 @@ section .color:nth-child(3) {
     letter-spacing: 1px;
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputBox input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.form .inputBox input::-moz-placeholder {
+    color: #fff;
+}
+
+.form .inputBox input:-ms-input-placeholder {
+    color: #fff;
+}
+
+.form .inputBox input::-ms-input-placeholder {
+    color: #fff;
 }
 
 .form .inputBox input::placeholder {
