@@ -52,11 +52,15 @@
 
 @media (min-width:768px) and (max-width:1024px) {
     .contact-info1 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         overflow-wrap: anywhere;
     }
 
     .contact-info2 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         overflow-wrap: anywhere;
     }
@@ -94,11 +98,15 @@
     }
 
     .contact-info1 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         overflow-wrap: anywhere;
     }
 
     .contact-info2 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
         overflow-wrap: anywhere;
     }
