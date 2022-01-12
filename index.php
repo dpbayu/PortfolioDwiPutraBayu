@@ -42,10 +42,8 @@ $user_data = mysqli_fetch_array($run);
 
     <!-- Background Box Start -->
     <div class="bg-box">
-        <div class="square" style="--i:1; top: 70px; right: -60px; width: 100px; height: 100px;"></div>
-        <div class="square" style="--i:2; top: 150px; left: -100px; width: 150px; height: 150px;"></div>
-        <div class="square" style="--i:3; bottom: 50px; right: -60px; width: 175px; height: 175px;"></div>
-        <div class="square" style="--i:4; bottom: 0; left: 100px; width:115px; height: 115px;"></div>
+        <div class="square" style="--i:1; top: 150px; left: -100px; width: 150px; height: 150px;"></div>
+        <div class="square" style="--i:2; bottom: 50px; right: -60px; width: 175px; height: 175px;"></div>
     </div>
     <!-- Background Box End -->
 
