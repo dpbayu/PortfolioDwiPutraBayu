@@ -2,8 +2,8 @@
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
     --backdrop-filter-blur: blur(5px);
-    --pink-light: #7303c0;
-    --cyan-light: #ffc5ef;
+    --light-blue: #2193b0;
+    --cool-white: #6dd5ed;
 }
 
 * {
@@ -20,7 +20,7 @@ body {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    background-image: linear-gradient(-30deg, #7303c0, #ffc5ef);
+    background-image: linear-gradient(-30deg, var(--light-blue), var(--cool-white));
 }
 
 .cards {
