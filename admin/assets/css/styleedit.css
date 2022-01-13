@@ -1,9 +1,9 @@
 :root {
+    --light-blue: #2193b0;
+    --cool-white: #6dd5ed;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
     --backdrop-filter-blur: blur(5px);
-    --light-blue: #2193b0;
-    --cool-white: #6dd5ed;
 }
 
 * {
