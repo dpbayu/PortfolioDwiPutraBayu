@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 :root {
-    --main-color: #e61c48;
-    --blue: #0000ff;
-    --blue-dark: #18293c;
-    --orange: #ffa500;
-    --pink-light: #7303c0;
-    --cyan-light: #ffc5ef;
+    --light-blue: #2193b0;
+    --cool-white: #6dd5ed;
     --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
@@ -22,7 +18,7 @@
 
 body {
     overflow: hidden;
-    background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
+    background-image: linear-gradient(to bottom right, var(--light-blue), var(--cool-white));
     background-attachment: fixed;
 }
 
@@ -61,7 +57,7 @@ section .color:nth-child(3) {
     right: 100px;
     width: 300px;
     height: 300px;
-    background: #00d2ff;
+    background: #48ff57;
 }
 
 .box {
