@@ -33,14 +33,12 @@ $user_data = mysqli_fetch_array($run);
     <section>
         <div class="color"></div>
         <div class="color"></div>
-        <div class="box">
-            <div class="square" style="--i:0;"></div>
-            <div class="square" style="--i:1;"></div>
-            <div class="square" style="--i:2;"></div>
-            <div class="square" style="--i:3;"></div>
-            <div class="square" style="--i:4;"></div>
-        </div>
     </section>
+    <div class="box">
+        <div class="square" style="--i:0;"></div>
+        <div class="square" style="--i:1;"></div>
+        <div class="square" style="--i:2;"></div>
+    </div>
     <div class="container">
         <div class="navbar">
             <!-- Account -->
@@ -566,8 +564,8 @@ $user_data = mysqli_fetch_array($run);
                                             </div>
                                             <div class="form-group">
                                                 <label>Description</label>
-                                                <textarea placeholder="Enter Desc" style="resize: none;"
-                                                    cols="95" rows="5" name="exp"></textarea>
+                                                <textarea placeholder="Enter Desc" style="resize: none;" cols="95"
+                                                    rows="5" name="exp"></textarea>
                                             </div>
                                         </div>
                                         <div class="card-footer">

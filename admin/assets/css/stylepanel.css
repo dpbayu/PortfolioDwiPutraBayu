@@ -1,9 +1,10 @@
 :root {
+    --light-blue: #2193b0;
+    --cool-white: #6dd5ed;
+    --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
     --backdrop-filter-blur: blur(5px);
-    --pink-light: #7303c0;
-    --cyan-light: #ffc5ef;
 }
 
 * {
@@ -20,7 +21,7 @@ body {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    background-image: linear-gradient(-30deg, #7303c0, #ffc5ef);
+    background-image: linear-gradient(-30deg, var(--light-blue), var(--cool-white));
 }
 
 section {
@@ -49,7 +50,7 @@ section .color:nth-child(2) {
     right: 100px;
     width: 300px;
     height: 300px;
-    background: #00d2ff;
+    background: rgb(33, 255, 70);
 }
 
 .box {
@@ -113,24 +114,10 @@ section .color:nth-child(2) {
     z-index: 2;
 }
 
-.box .square:nth-child(3) {
-    bottom: -582px;
-    right: -62px;
-    width: 90px;
-    height: 90px;
-    z-index: 2;
-}
 
-.box .square:nth-child(4) {
+.box .square:nth-child(3) {
     bottom: -680px;
     left: 1230px;
-    width: 150px;
-    height: 150px;
-}
-
-.box .square:nth-child(5) {
-    top: -80px;
-    left: 90px;
     width: 150px;
     height: 150px;
 }
