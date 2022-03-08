@@ -644,6 +644,7 @@ About Section
 }
 
 .about-text {
+    text-align: justify;
     text-justify: inter-word;
     width: 60%;
     padding: 0 15px;
