@@ -355,7 +355,7 @@ $user_data = mysqli_fetch_array($run);
                             <div class="timeline-item">
                                 <span class="date"><?=$resume['time']?></span>
                                 <h4><?=$resume['title']?> - <span><?=$resume['org']?></span></h4>
-                                <p style="word-break: break-all;"><?=$resume['exp']?></p>
+                                <p><?=$resume['exp']?></p>
                             </div>
                         </div>
                         <?php 

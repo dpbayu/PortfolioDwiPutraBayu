@@ -646,7 +646,6 @@ About Section
 .about-text {
     text-align: justify;
     text-justify: inter-word;
-    word-break: break-all;
     width: 60%;
     padding: 0 15px;
 }
@@ -1140,7 +1139,6 @@ Portfolio Section
 .pp-body .description {
     text-align: justify;
     text-justify: inter-word;
-    word-break: break-all;
     margin-bottom: 20px;
 }
 
