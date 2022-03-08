@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 30, 2021 at 07:33 AM
+-- Generation Time: Mar 08, 2022 at 11:17 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -39,7 +39,7 @@ CREATE TABLE `about` (
 --
 
 INSERT INTO `about` (`id`, `about_pic`, `about_title`, `about_desc`) VALUES
-(1, '1636559044profile.png', 'Web Designer | UI & UX Designer | Front-End Programmer', 'Experienced Operational Specialist with a demonstrated history of working in the computer software industry. I am skilled in office administration, data entry, web design and UI/UX Designer. I mastered tool figma for create mock up and microsoft office for office administration. Strong information technology professional with a Bachelor\'s degree focused in Computer/Information Technology Administration and Management from Mercu Buana University.');
+(1, '1636559044profile.png', 'Web Designer | UI & UX Designer | Front-End Programmer', 'Experienced Operational Specialist with a demonstrated history of working in the computer software industry. I am skilled in office administration, data entry, web design and UI / UX Designer. I mastered tool figma for create mock up and microsoft office for office administration. Strong information technology professional with a Bachelor\'s degree focused in Computer and Information Technology Administration and Management from Mercu Buana University.');
 
 -- --------------------------------------------------------
 
@@ -154,11 +154,11 @@ CREATE TABLE `portfolio` (
 --
 
 INSERT INTO `portfolio` (`id`, `project_type`, `project_name`, `project_pic`, `project_desc`, `project_date`, `project_role`, `project_link`, `project_linkname`) VALUES
-(1, 'Web Design', 'PUSATNUSA', '1636733844Pusatnusa.png', 'The People Entrepreneurs Association (PUSATNUSA) is a legal entity organization consisting of entrepreneurs based on the people economy (Pancasila economy) together with the people and users to become pioneers in realizing the goals of the Republic of Indonesia.', 'June 2020', 'Web Designer', 'https://pusatnusa.com/', 'www.pusatnusa.com'),
-(2, 'Web Design', 'Portfolio Aqilla Aurellia', '1636733845Portfolio.png', 'Aqila Aurelia is a graphic designer who has more than 3 years of experience in the design field. She loves meeting new people from all over the world. She loves challenges and is always learning to be better than before with the people around her.', 'October 2020', 'UI & UX Designer', 'https://www.figma.com/file/0OZVLXHIpaHsfv7GQTy8sL/Portfolio?node-id=0%3A1', 'www.aqillaaurellia.com'),
-(64, 'Web Design', 'Let\'s Eat', '1636807563Lets Eat.png', 'Let\'s eat is a web design that serves to help customers order food and drinks with a beautiful appearance and stunning animation so that it will look fresher. This website can also be used to book a place or a dining table that customers want.', 'November 2020', 'UI & UX Designer', 'https://www.figma.com/file/caL3qHEamhfUBAvdiYOwtC/Let\'s-Eat-Figma?node-id=0%3A1', 'www.letseat.com'),
-(70, 'Web Design', 'Soundhead', '1636807815Soundhead.png', 'Soundhead makes it easy for you to find the right music or podcast for every time on your phone, your computer, your tablet, and more. There are millions of songs on Soundhead. So whether you are driving, working out, partying, or relaxing, the right music or podcast is always in your hands. Choose what you want to hear or let Soundhead surprise you.\r\n\r\n', 'August 2021', 'UI & UX Designer', 'https://www.figma.com/file/Ti6JWzeTQhUpLvGkZSxZIY/Soundhead-Figma?node-id=0%3A1', 'www.soundhead.com'),
-(71, 'Web Design', 'Chill & Burn', '1636807905Chill & Burn.png', 'The minimalistic design of the Chill & Burn website coffee anytime provides the most complete and up-to-date information about the menu and price list. The design reflects the Chill & Burn corporate indetity and try to attracts new customers and help to promotion of the cafe.', 'September 2021', 'UI & UX Designer', 'https://www.figma.com/file/tCi3llWtEDEo8NWQcXLQXu/Chill-%26-Burn?node-id=0%3A1', 'www.chill&burn.com'),
+(1, 'Website', 'PUSATNUSA', '1636733844Pusatnusa.png', 'The People Entrepreneurs Association (PUSATNUSA) is a legal entity organization consisting of entrepreneurs based on the people economy (Pancasila economy) together with the people and users to become pioneers in realizing the goals of the Republic of Indonesia.', 'June 2020', 'Front-End Programmer', 'https://pusatnusa.com/', 'www.pusatnusa.com'),
+(2, 'UI / UX Design', 'Portfolio Aqilla Aurellia', '1636733845Portfolio.png', 'Aqila Aurelia is a graphic designer who has more than 3 years of experience in the design field. She loves meeting new people from all over the world. She loves challenges and is always learning to be better than before with the people around her.', 'October 2020', 'UI & UX Designer', 'https://www.figma.com/file/0OZVLXHIpaHsfv7GQTy8sL/Portfolio?node-id=0%3A1', 'www.aqillaaurellia.com'),
+(64, 'UI / UX Design', 'Lets Eat', '1636807563Lets Eat.png', 'Lets eat is a web design that serves to help customers order food and drinks with a beautiful appearance and stunning animation so that it will look fresher. This website can also be used to book a place or a dining table that customers want.', 'November 2020', 'UI & UX Designer', 'https://www.figma.com/file/caL3qHEamhfUBAvdiYOwtC/Lets-Eat-Figma?node-id=0%3A1', 'www.letseat.com'),
+(70, 'UI / UX Design', 'Soundhead', '1636807815Soundhead.png', 'Soundhead makes it easy for you to find the right music or podcast for every time on your phone, your computer, your tablet, and more. There are millions of songs on Soundhead. So whether you are driving, working out, partying, or relaxing, the right music or podcast is always in your hands. Choose what you want to hear or let Soundhead surprise you.\r\n\r\n', 'August 2021', 'UI & UX Designer', 'https://www.figma.com/file/Ti6JWzeTQhUpLvGkZSxZIY/Soundhead-Figma?node-id=0%3A1', 'www.soundhead.com'),
+(71, 'UI / UX Design', 'Chill & Burn', '1636807905Chill & Burn.png', 'The minimalistic design of the Chill & Burn website coffee anytime provides the most complete and up-to-date information about the menu and price list. The design reflects the Chill & Burn corporate indetity and try to attracts new customers and help to promotion of the cafe.', 'September 2021', 'UI & UX Designer', 'https://www.figma.com/file/tCi3llWtEDEo8NWQcXLQXu/Chill-%26-Burn?node-id=0%3A1', 'www.chill&burn.com'),
 (72, 'Website', 'Portfolio Chou Tzuyu', '1636808167choutzuyu.png', 'Dynamic website for Chou Tzuyu member of South Korean girl group TWICE.', 'October 2021', 'Fullstack Programmer', 'http://choutzuyu.epizy.com/', 'choutzuyu.epizy.com');
 
 -- --------------------------------------------------------
@@ -184,8 +184,8 @@ INSERT INTO `resume` (`id`, `type`, `title`, `org`, `time`, `exp`) VALUES
 (8, 'e', 'Course HTML, CSS & JAVASCRIPT', 'Progate', 'March 2021 - April 2021', 'Professional Academy'),
 (9, 'e', 'Big Data Analytics', 'Digital Talent Scholarship KOMINFO', '2019', 'Program Fresh Graduate Academy'),
 (10, 'e', 'Bachelor of Computer Science', 'Mercu Buana University', '2015 - 2019', ''),
-(11, 'p', 'Web Designer', 'GORGA GROUP', 'June 2020 - September 2020', 'Create website PUSATNUSA'),
-(13, 'p', 'Junior Android Programmer', 'Cooperative Sejahtera Mandiri', 'January 2017 - June 2017', 'Create a cooperative employee salary calculation application');
+(11, 'p', 'Front-End Programmer', 'GORGA GROUP', 'June 2020 - September 2020', 'Creating websites from scratch for corporate projects. Starting with buying hosting, creating templates, building a website with Laravel, uploading hosting, setting up SSL & website pagespeed. Website : www.pusatnusa.com\n'),
+(13, 'p', 'Junior Android Programmer', 'Cooperative Sejahtera Mandiri', 'January 2017 - June 2017', 'Create a mobile application for cooperatives. Make a splash screen to enter the application, make the homepage menu display on the mobile, make the display on each menu in the application.');
 
 -- --------------------------------------------------------
 
