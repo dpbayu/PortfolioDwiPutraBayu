@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col">
                 <div class="card-header">
-                    <h4 class="card-title">Edit Resume</h4>
+                    <h4 class="card-title">Edit</h4>
                 </div>
                 <!-- Form Resume -->
                 <form role="form" method="post">
@@ -64,7 +64,7 @@
                     </div>
                     <div class="card-footer">
                         <button type="submit" name="kirim" value="update" class="btn btn-primary">Edit Resume</button>
-                        <a href="../admin/index.php?resumesetting=true" style="margin-left: 50px;">Back About</a>
+                        <a href="../admin/index.php?resumesetting=true" style="margin-left: 50px; text-decoration: none; color:white;">Back About</a>
                     </div>
                 </form>
                 <!-- Form Resume -->
@@ -93,9 +93,9 @@ if(isset($_POST['kirim'])){
         exp = '".$exp."' 
         WHERE id = '".$_GET['id']."'");
         if($update){
-            echo 'Berhasil Update';
+            window.alert (Berhasil Update);
         } else {
-            echo 'Gagal Update';
+            window.alert (Gagal Update);
         }
     }
 }
