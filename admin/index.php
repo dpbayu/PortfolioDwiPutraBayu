@@ -582,9 +582,7 @@ $user_data = mysqli_fetch_array($run);
                             <div class="cards">
                                 <div class="row">
                                     <div class="col">
-                                        <div class="card-header">
-                                            <h4 class="card-title">Manage Portfolio</h4>
-                                        </div>
+                                        <h4 class="card-title">Manage Portfolio</h4>
                                         <div class="cards">
                                             <div class="card-body">
                                                 <table class="table">
@@ -664,7 +662,8 @@ $user_data = mysqli_fetch_array($run);
                                                     <!-- Project Description -->
                                                     <div class="form-group">
                                                         <label>Project Description</label>
-                                                        <textarea placeholder="Enter Project Desc" name="project_desc"></textarea>
+                                                        <textarea placeholder="Enter Project Desc"
+                                                            name="project_desc"></textarea>
                                                     </div>
                                                     <!-- Project Description -->
                                                     <!-- Project Date -->
@@ -713,10 +712,8 @@ $user_data = mysqli_fetch_array($run);
                             <!-- Update Contact -->
                             <div class="cards">
                                 <div class="row">
-                                    <div class="col" style="margin: 0 20px 20px 20px;">
-                                        <div class="card-header">
-                                            <h4 class="card-title">Update Contact Details</h4>
-                                        </div>
+                                    <div class="col">
+                                        <h4 class="card-title">Update Contact</h4>
                                         <form role="form" action="../include/admin.php" method="post">
                                             <div class="card-body">
                                                 <div class="form-group">
@@ -747,10 +744,8 @@ $user_data = mysqli_fetch_array($run);
                             <!-- Update Social Media -->
                             <div class="cards">
                                 <div class="row">
-                                    <div class="col" style="margin: 0 20px 50px 20px;">
-                                        <div class="card-header">
-                                            <h4 class="card-title">Update Social Media Details</h4>
-                                        </div>
+                                    <div class="col">
+                                        <h4 class="card-title">Update Social Media</h4>
                                         <form role="form" action="../include/admin.php" method="post">
                                             <div class="card-body">
                                                 <!-- Facebook -->
@@ -808,10 +803,8 @@ $user_data = mysqli_fetch_array($run);
                             <!-- Update SEO -->
                             <div class="cards">
                                 <div class="row">
-                                    <div class="col" style="margin: 0 20px 50px 20px;">
-                                        <div class="card-header">
-                                            <h4 class="card-title">Update SEO</h4>
-                                        </div>
+                                    <div class="col">
+                                        <h4 class="card-title">Update SEO</h4>
                                         <form role="form" action="../include/admin.php" method="post"
                                             enctype="multipart/form-data">
                                             <img src="../assets/img/<?=$user_data['siteicon']?>" class="col-3">
@@ -851,10 +844,8 @@ $user_data = mysqli_fetch_array($run);
                             <!-- Update Account -->
                             <div class="cards">
                                 <div class="row">
-                                    <div class="col" style="margin: 0 20px 50px 20px;">
-                                        <div class="card-header">
-                                            <h4 class="card-title">Update Account Setting</h4>
-                                        </div>
+                                    <div class="col">
+                                        <h4 class="card-title">Update Account Setting</h4>
                                         <form role="form" action="../include/admin.php" method="post"
                                             enctype="multipart/form-data">
                                             <img src="../assets/img/<?=$user_data['admin_profile']?>" class="col-3">

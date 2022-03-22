@@ -128,7 +128,7 @@ section .color:nth-child(2) {
     height: -moz-fit-content;
     height: fit-content;
     background: rgba(255, 255, 255, .4);
-    border-radius: 30px;
+    border-radius: 25px;
     margin: 50px 20px;
 }
 
@@ -281,7 +281,7 @@ section .color:nth-child(2) {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 25px;
     padding: 25px;
 }
