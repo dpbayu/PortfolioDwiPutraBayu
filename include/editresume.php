@@ -93,9 +93,9 @@ if(isset($_POST['kirim'])){
         exp = '".$exp."' 
         WHERE id = '".$_GET['id']."'");
         if($update){
-            window.alert (Berhasil Update);
+            echo "<script>alert('Data berhasil di update!');history.go(-1);</script>";
         } else {
-            window.alert (Gagal Update);
+            echo "<script>alert('Data gagal di update!');history.go(-1);</script>";
         }
     }
 }

@@ -76,9 +76,9 @@ if(isset($_POST['kirim'])){
         skill_level = '".$skill_level."' 
         WHERE id = '".$_GET['id']."'");
         if($update){
-            echo 'Berhasil Update';
+            echo "<script>alert('Data berhasil di update!');history.go(-1);</script>";
         } else {
-            echo 'Gagal Update';
+            echo "<script>alert('Data gagal di update!');history.go(-1);</script>";
         }
     }
 }

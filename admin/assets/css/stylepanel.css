@@ -196,7 +196,7 @@ section .color:nth-child(2) {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    width: 200px;
+    width: 100%;
     margin: 50px 20px;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
@@ -235,7 +235,6 @@ section .color:nth-child(2) {
     flex-wrap: wrap;
     justify-content: center;
     font-size: 15px;
-    padding: 0 10px;
     margin: 0 0 10px 20px;
 }
 
@@ -273,9 +272,6 @@ section .color:nth-child(2) {
 
 .container-body .main-body .cards .row {
     width: 100%;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .container-body .main-body .cards .row .col {

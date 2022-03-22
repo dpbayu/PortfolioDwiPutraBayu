@@ -58,7 +58,7 @@ $user_data = mysqli_fetch_array($run);
         </div>
         <div class="container-body">
             <div class="row">
-                <div class="col-4">
+                <div class="col-3">
                     <!-- Sidebar -->
                     <div class="sidebar">
                         <ul class="nav">
@@ -114,7 +114,7 @@ $user_data = mysqli_fetch_array($run);
                     </div>
                     <!-- Sidebar -->
                 </div>
-                <div class="col-8">
+                <div class="col-9">
                     <!-- Content -->
                     <div class="main-body">
                         <!-- Greeting -->
@@ -352,7 +352,7 @@ $user_data = mysqli_fetch_array($run);
                                                                     href="../include/deleteservice.php?id=<?=$service['id']?>">Delete</a>
                                                             </td>
                                                         </tr>
-                                                            <?php
+                                                        <?php
                                                             $c++;
                                                             }
                                                             ?>
@@ -487,10 +487,8 @@ $user_data = mysqli_fetch_array($run);
                             <!-- Update Resume -->
                             <div class="cards">
                                 <div class="row">
-                                    <div class="col" style="margin: 0 20px 50px 20px;">
-                                        <div class="card-header">
-                                            <h4 class="card-title">Manage Resume</h4>
-                                        </div>
+                                    <div class="col">
+                                        <h4 class="card-title">Manage Resume</h4>
                                         <div class="cards">
                                             <div class="card-body">
                                                 <table class="table">
@@ -499,7 +497,6 @@ $user_data = mysqli_fetch_array($run);
                                                             <th style="width: 10px">#</th>
                                                             <th>Type</th>
                                                             <th>Title</th>
-                                                            <th>Time</th>
                                                             <th>Institute / Company</th>
                                                             <th>Description</th>
                                                             <th style="width: 40px">Action</th>
@@ -516,7 +513,6 @@ $user_data = mysqli_fetch_array($run);
                                                             <td><?=$c?></td>
                                                             <td><?=$resume['type']?></td>
                                                             <td><?=$resume['title']?></td>
-                                                            <td><?=$resume['time']?></td>
                                                             <td><?=$resume['org']?></td>
                                                             <td><?=$resume['exp']?></td>
                                                             <td>
@@ -585,7 +581,7 @@ $user_data = mysqli_fetch_array($run);
                             <!-- Update Portfolio -->
                             <div class="cards">
                                 <div class="row">
-                                    <div class="col" style="margin: 0 20px 50px 20px;">
+                                    <div class="col">
                                         <div class="card-header">
                                             <h4 class="card-title">Manage Portfolio</h4>
                                         </div>
@@ -598,7 +594,6 @@ $user_data = mysqli_fetch_array($run);
                                                             <th>Type</th>
                                                             <th>Image</th>
                                                             <th>Name</th>
-                                                            <th>Date</th>
                                                             <th>Role</th>
                                                             <th>Link</th>
                                                             <th style="width: 40px">Action</th>
@@ -615,9 +610,8 @@ $user_data = mysqli_fetch_array($run);
                                                             <td><?=$c?></td>
                                                             <td><?=$portfolio['project_type']?></td>
                                                             <td><img src="../assets/img/portfolio/<?=$portfolio['project_pic']?>"
-                                                                    style="width:105px" height="100px" /></td>
+                                                                    style="width:75px" height="75px" /></td>
                                                             <td><?=$portfolio['project_name']?></td>
-                                                            <td><?=$portfolio['project_date']?></td>
                                                             <td><?=$portfolio['project_role']?></td>
                                                             <td><a href="<?=$portfolio['project_link']?>"
                                                                     target="_blank">Open
@@ -670,8 +664,7 @@ $user_data = mysqli_fetch_array($run);
                                                     <!-- Project Description -->
                                                     <div class="form-group">
                                                         <label>Project Description</label>
-                                                        <textarea placeholder="Enter Project Desc" style="resize: none;"
-                                                            cols="95" rows="5" name="project_desc"></textarea>
+                                                        <textarea placeholder="Enter Project Desc" name="project_desc"></textarea>
                                                     </div>
                                                     <!-- Project Description -->
                                                     <!-- Project Date -->

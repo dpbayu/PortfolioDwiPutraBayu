@@ -156,9 +156,9 @@ if(isset($_POST['kirim'])){
         project_linkname = '".$project_linkname."' 
         WHERE id = '".$_GET['id']."'");
         if($update){
-            echo 'Berhasil';
+            echo "<script>alert('Data berhasil di update!');history.go(-1);</script>";
         }else{
-            echo 'Gagal';
+            echo "<script>alert('Data gagal di update!');history.go(-1);</script>";
         }
     }
 }
