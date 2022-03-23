@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col">
                 <div class="card-header">
-                    <h4 class="card-title">Edit</h4>
+                    <h4 class="card-title">Edit Resume</h4>
                 </div>
                 <!-- Form Resume -->
                 <form role="form" method="post">
