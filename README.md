@@ -2,9 +2,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/zuran2907" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="zuran2907" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/zulkifliraihan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="zulkifliraihan" height="30" width="40" /></a>
-<a href="https://instagram.com/zulkifli_2907" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zulkifli_2907" height="30" width="40" /></a>
+<a href="https://twitter.com/codesvein" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="zuran2907" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/dwiputrabayu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="zulkifliraihan" height="30" width="40" /></a>
+<a href="https://instagram.com/dwptrbayu" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zulkifli_2907" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
