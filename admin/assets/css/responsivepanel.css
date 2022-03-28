@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1024px) {
+    .container-body .sidebar ul li p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-body .sidebar {
+        width: 100%;
+        margin: 25px 0;
+        padding: 10px;
+    }
+
+    .container-body .sidebar ul li i {
+        font-size: 18px;
+    }
+
+    .container-body .main-body .title {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-body .main-body .cards .row .col {
+        margin: 25px 0;
+    }
+}
