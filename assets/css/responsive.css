@@ -1,0 +1,224 @@
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width:991px) {
+    .container {
+        padding: 0;
+    }
+
+    .home-info,
+    .home-img {
+        width: 100%;
+    }
+
+    .home-info {
+        text-align: center;
+    }
+
+    .home-img {
+        order: -1;
+    }
+
+    .home-img .img-box {
+        max-width: 300px;
+    }
+
+    .home-info .btn {
+        margin: 0 7px 15px;
+    }
+
+    .skill {
+        margin: 0 20px;
+    }
+
+    .portfolio-item {
+        width: calc(50% - 30px);
+    }
+}
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .contact-info-item .social-links {
+        margin: 0 0 0 60px;
+        padding: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .contact-info1 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-info2 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        overflow-wrap: anywhere;
+    }
+}
+
+
+@media (max-width:767px) {
+
+    .about-img,
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text {
+        margin-top: 30px;
+    }
+
+    .portfolio-item {
+        width: calc(100%);
+    }
+
+    .pp-inner {
+        padding: 30px 15px;
+    }
+
+    .resume-education,
+    .resume-professional {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .contact-info1,
+    .contact-info2 {
+        width: 100%;
+    }
+
+    .contact-info1 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-info2 .contact-box {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        overflow-wrap: anywhere;
+    }
+
+    .contact-info-item {
+        padding: 0;
+    }
+}
+
+@media (max-width:575px) {
+
+    .section-title h2,
+    .header .nav-inner ul li a {
+        font-size: 35px;
+    }
+
+    .home-info h1 {
+        font-size: 30px;
+    }
+
+    .home-info h2 {
+        font-size: 18px;
+    }
+
+    .pp-header h3 {
+        font-size: 20px;
+    }
+
+    .about-img {
+        margin: auto;
+    }
+}
+
+@media (min-width:545px) and (max-width:767px) {
+    .portfolio-item {
+        width: calc(45%);
+    }
+
+    .pp-thumbnail img {
+        height: 300px;
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width:426px) and (max-width:767px) {
+    .about-img {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+}
+
+@media (min-width:426px) and (max-width:544px) {
+    .portfolio-item-thumbnail img {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .portfolio-item {
+        width: calc(100%);
+    }
+
+    .pp-thumbnail img {
+        height: 300px;
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:425px) {
+    .header .nav-toggler {
+        width: 35px;
+        height: 35px;
+    }
+
+    .header .nav-toggler span {
+        width: 20px;
+        height: 2px;
+    }
+
+    .about-img {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .about-section .btn {
+        margin: 15px 15px 0 0;
+    }
+
+    .portfolio-item-thumbnail img {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .pp-thumbnail img {
+        height: 200px;
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width:320px) and (max-width:726px) {
+    .about-text .interest {
+        margin: auto;
+    }
+}
